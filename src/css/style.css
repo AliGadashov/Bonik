@@ -1,0 +1,33 @@
+:root{
+
+    --main-blue: #0F3460;
+    --dark-blue: #0C2A4D;
+    --main-red: #E94560;
+    --main-light-red: #e9456062;
+    --main-gray: #F3F5F9;
+    --white: #fff;
+    --black: #000;
+    --text-color: #2b3445;
+    --light-text-color:#7d879c;
+    --main-bg:#F6F9FC;
+    --gray: #a5a5a5;
+
+    --golden-yellow:#FFC672;
+    --light-green:#84FFB5;
+    --light-blue:#70F6FF;
+    --light-purple:#6B7AFF;
+}
+
+.body-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.card{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transition: 0.3s ease-in-out;
+    &:hover{
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    }
+}

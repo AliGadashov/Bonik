@@ -1,0 +1,373 @@
+/* Header */
+
+@media (max-width: 900px){
+    .header-top{
+        .ht-left{
+            >img{
+                display: block !important;
+            }
+            svg{
+                display: none !important;
+            }
+            p{
+                display: none !important;
+            }
+        }
+        .ht-right{
+            >a{
+                display: none !important;
+            }
+        }
+    }
+    header{
+        .hm-content{
+            >img{
+                display: none;
+            }
+            .hm-middle{
+                width: 100% !important;
+                    input{
+                    width: 80% !important;
+                }
+            }
+            .hm-right{
+                display: none !important;
+            }
+        }
+    }
+    .header-bottom{
+        display: none;
+    }
+}
+
+/* Header */
+ 
+
+/* Main */
+
+@media (max-width: 425px){
+    .section-flex{
+        .featured-brends{
+            .card{
+                grid-template-columns: 1fr !important;
+            }
+        }    
+    }
+    .new-arrivals{
+        .card{
+            grid-template-columns: 1fr 1fr !important; 
+        }
+    }
+
+    .car-with-aside,
+    .mobile-phone-with-aside,
+    .optic-watch-with-aside{
+        .aside-section{
+            grid-template-columns: 1fr !important;
+            aside{
+                display: none !important;
+            }
+            .section-bottom{
+                grid-template-columns: 1fr !important;
+            }
+        }
+    }
+    .categories{
+        .section-bottom{
+            grid-template-columns: 1fr !important;
+        }
+    }
+    .more-for-you{
+        .section-bottom{
+            grid-template-columns: 1fr !important;
+        }
+    }
+}
+@media (max-width: 500px){
+    .flash-deals{
+        .section-bottom{
+            grid-template-columns: 1fr !important; 
+        }
+        
+    }
+}
+@media (max-width: 650px) and (min-width: 500px){
+    .flash-deals{
+        .section-bottom{
+            grid-template-columns: 1fr 1fr !important; 
+        }
+    }
+}
+@media (max-width: 650px){
+    .top-categories{
+        .section-bottom{
+            grid-template-columns: 1fr !important; 
+        }
+    }
+    .big-discounts{
+        .section-bottom{
+            grid-template-columns: 1fr 1fr !important; 
+        }
+    }
+
+}
+@media (max-width: 768px){
+    .section-flex{
+        .top-ratings{
+            .card{
+                grid-template-columns: 1fr 1fr !important;
+            }
+        }    
+    }
+    .support{
+        .section-bottom{
+            grid-template-columns: 1fr !important;
+        }
+    }
+}
+@media (max-width: 768px) and (min-width: 425px){
+    
+    .new-arrivals{
+        .card{
+            grid-template-columns: 1fr 1fr 1fr !important; 
+        }
+    }
+
+    .car-with-aside,
+    .mobile-phone-with-aside,
+    .optic-watch-with-aside{
+        .aside-section{
+            grid-template-columns: 1fr !important;
+            aside{
+                display: none !important;
+            }
+            .section-bottom{
+                grid-template-columns: 1fr 1fr !important;
+            }
+        }
+    }
+    .categories{
+        .section-bottom{
+            grid-template-columns: 1fr 1fr 1fr !important;
+        }
+    }
+    .more-for-you{
+        .section-bottom{
+            grid-template-columns: 1fr 1fr !important;
+        }
+    }
+    
+}
+@media (max-width: 900px){
+    .hero{
+        .hero-top{
+            grid-template-columns: 1fr !important;
+            .hero-side{
+                display: none !important;
+            }
+        }
+    }
+}
+@media (max-width: 950px) and (min-width: 650px){
+
+    .flash-deals{
+        .section-bottom{
+            grid-template-columns: 1fr 1fr 1fr !important; 
+        }
+    }
+    .top-categories{
+        .section-bottom{
+            grid-template-columns: 1fr 1fr !important; 
+        }
+    }
+}
+@media (max-width: 1024px) and (min-width: 768px) {
+    
+    .new-arrivals{
+        .card{
+            grid-template-columns: 1fr 1fr 1fr 1fr !important; 
+        }
+    }
+    .car-with-aside,
+    .mobile-phone-with-aside,
+    .optic-watch-with-aside{
+        .section-bottom{
+            grid-template-columns: 1fr 1fr !important;
+        }
+    }
+    .categories{
+        .section-bottom{
+            grid-template-columns: 1fr 1fr 1fr 1fr !important;
+        }
+    }
+    .more-for-you{
+        .section-bottom{
+            grid-template-columns: 1fr 1fr 1fr !important;
+        }
+    }
+    .support{
+        .section-bottom{
+            grid-template-columns: 1fr 1fr !important;
+        }
+    }
+}
+
+@media (max-width: 1024px){
+    .section-flex{
+        grid-template-columns: 1fr !important; 
+    }
+}
+
+
+/* Main */
+
+
+/* Search Product */
+
+@media (max-width: 425px) {
+
+    .watch-with-aside{
+        .aside-section{
+            grid-template-columns: 1fr !important; 
+            .section-bottom{
+            grid-template-columns: 1fr !important; 
+            }
+        }
+    }
+}
+@media (max-width: 736px) {
+    .searching-for{
+        .card{
+            flex-direction: column !important;
+            align-items: start !important;
+        }
+    }
+}
+@media (max-width: 1024px) and (min-width: 425px){
+
+    .watch-with-aside{
+        .aside-section{
+            grid-template-columns: 1fr !important; 
+            .section-bottom{
+            grid-template-columns: 1fr 1fr !important; 
+                
+            }
+        }
+    }
+
+
+}
+
+/* Search Product */
+
+
+/* Single Product */
+
+@media (max-width: 425px) {
+
+    .single-product{
+        .the-product{
+            grid-template-columns: 1fr !important;
+        }
+    }
+
+    .also-available{
+        .section-bottom{
+            grid-template-columns: 1fr !important;
+        }
+    }
+    .related-products{
+        .section-bottom{
+            grid-template-columns: 1fr !important;
+        }
+    }
+    .bought-together{
+        .section-bottom{
+            grid-template-columns: 1fr !important;
+        }
+    }
+
+}
+@media (max-width: 604px) and (min-width: 425px){
+
+    .bought-together{
+        .section-bottom{
+            grid-template-columns: 1fr 1fr !important;
+        }
+    }
+
+}
+@media (max-width: 768px) and (min-width: 425px){
+
+    .single-product{
+        .the-product{
+            grid-template-columns: 1fr !important;
+        }
+    }
+
+    .also-available{
+        .section-bottom{
+            grid-template-columns: 1fr 1fr !important;
+        }
+    }
+    .related-products{
+        .section-bottom{
+            grid-template-columns: 1fr 1fr !important;
+        }
+    }
+
+}
+@media (max-width: 810px) and (min-width: 604px) {
+
+    .bought-together{
+        .section-bottom{
+            grid-template-columns: 1fr 1fr 1fr !important;
+        }
+    }
+
+}
+@media (max-width: 1024px) and (min-width: 768px)  {
+
+    .also-available{
+        .section-bottom{
+            grid-template-columns: 1fr 1fr 1fr !important;
+        }
+    }
+    .related-products{
+        .section-bottom{
+            grid-template-columns: 1fr 1fr 1fr !important;
+        }
+    }
+
+}
+@media (max-width: 1190px ) and (min-width: 810px) {
+
+    .bought-together{
+        .section-bottom{
+            grid-template-columns: 1fr 1fr 1fr 1fr !important;
+        }
+    }
+
+}
+
+/* Single Product */
+
+
+/* Footer */
+
+@media (max-width: 425px) {
+    footer{
+        .section-bottom{
+            grid-template-columns: 1fr !important;
+        }
+    }
+}
+@media (max-width: 1024px) and (min-width: 425px) {
+    footer{
+        .section-bottom{
+            grid-template-columns: 1fr 1fr !important;
+        }
+    }
+}
+
+/* Footer */

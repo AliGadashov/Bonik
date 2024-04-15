@@ -1,0 +1,271 @@
+main{
+    background-color: var(--main-gray);
+    .searching-for{
+        padding-top: 50px;
+        .card{
+            position: relative;
+            background-color: var(--white);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
+            gap: 10px;
+            .sf-left{
+                h3{
+                    font-size: 17px;
+                    line-height: 25px;
+                    font-weight: 700;
+                    color: var(--text-color);
+                }
+                p{
+                    font-size: 14px ;
+                    line-height: 21px;
+                    color: var(--light-text-color);
+                }
+            }
+            .sf-right{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                p{
+                    font-size: 14px ;
+                    line-height: 21px;
+                    color: var(--light-text-color);
+                }
+                >div{
+                    width: 44px;
+                    height: 44px;
+                    border-radius: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    &:hover{
+                        background-color: var(--main-bg);
+                    }
+                }
+            }
+        }
+    }
+
+    .watch-with-aside{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        .aside-section{
+            display: grid;
+            grid-template-columns: 1fr 3fr;
+            grid-gap: 20px;
+            aside{
+                width: 100%;
+                .card{
+                    position: relative;
+                    background-color: var(--white);
+                    border-radius: 10px;
+                    display: flex;
+                    flex-direction: column;
+                    padding: 20px;
+                    gap: 10px;
+                    .aside-section{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: start;
+                        gap: 20px;
+                        border-bottom:1px solid var(--main-gray) ;
+                        padding-bottom:20px ;
+                        ol{
+                            padding-left: 20px;
+                            list-style: circle;
+                        }
+                        h3{
+                            line-height: 21px ;
+                            font-size: 14px;
+                            font-weight: 600;
+                            color: var(--text-color);
+                        }
+                        ol,
+                        ul{
+                            display: flex;
+                            flex-direction: column;
+                            align-items: start;
+                            gap: 10px;
+                            li{
+                                a{
+                                    font-size: 14px ;
+                                    line-height: 21px;
+                                    color: var(--light-text-color);
+                                }
+                            }
+                        }
+                        .range{
+                            display: flex;
+                            align-items: center;
+                            gap: 10px;
+                            input{
+                                width: 50%;
+                                outline: none;
+                                border: 1px solid var(--main-gray);
+                                padding: 8px 12px;
+                                font-size: 14px;
+                                border-radius: 5px;
+                            }
+                        }
+                        .stars{
+                            .star{
+                                font-size: 14px;
+                                line-height: 21px;
+                            }
+                            .checked {
+                                color: orange;
+                              }
+                        }
+                        .colors{
+                            display: flex;
+                            align-items: center;
+                            gap: 10px;
+                            >div{
+                                width: 25px;
+                                height: 25px;
+                                border-radius: 50%;
+                                &:nth-child(1){
+                                    background-color: var(--black);
+                                }
+                                &:nth-child(2){
+                                    background-color: var(--main-red);
+                                }
+                                &:nth-child(3){
+                                    background-color: var(--golden-yellow);
+                                }
+                                &:nth-child(4){
+                                    background-color: var(--light-green);
+                                }
+                                &:nth-child(5){
+                                    background-color: var(--light-blue);
+                                }
+                                &:nth-child(6){
+                                    background-color: var(--light-purple);
+                                }
+                                &:hover{
+                                cursor: pointer;
+                            }
+                            }
+                        }
+                    }
+                }
+            }
+            .optic-watch{
+                display: flex;
+                flex-direction: column;
+                .section-bottom{
+                    display: grid;
+                    grid-template-columns: 1fr 1fr 1fr;
+                    grid-gap: 20px;
+                    .card{
+                        position: relative;
+                        background-color: var(--white);
+                        padding: 10px;
+                        border-radius: 10px;
+                        display: flex;
+                        flex-direction: column;
+                        .card-img{
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            width: 100%;
+                            height: 280px;
+                            img{
+                                margin-top: 20px;
+                                border-radius: 10px;
+                                width: 90%;
+                            }
+                        }
+                        >p{
+                            margin-top: 20px;
+                            font-size: 14px;
+                            font-weight: 600;
+                            line-height: 21px;
+                            color: var(--text-color);
+                        }
+                        .card-bottom{
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: end;
+                            margin-top: 10px;
+                            .cb-left{
+                                display: flex;
+                                flex-direction: column;
+                                gap: 10px;
+                                .stars{
+                                    .star{
+                                        font-size: 14px;
+                                        line-height: 21px;
+                                    }
+                                    .checked {
+                                        color: orange;
+                                      }
+                                }
+                                .price{
+                                    display: flex;
+                                    align-items: center;
+                                    gap: 10px;
+                                    p{
+                                        font-size: 14px;
+                                        font-weight: 600;
+                                        line-height: 21px;
+                                        &:first-child{
+                                            color: var(--main-red);   
+                                        }
+                                        &:last-child{
+                                            color: var(--light-text-color);
+                                            text-decoration: line-through;
+                                        }
+                                    }
+                                }
+                            }
+                            .cb-right{
+                                svg{
+                                    border: 1px solid var(--main-light-red);
+                                    padding: 2px;
+                                    border-radius: 5px;
+                                    transition: 0.3s ease-in-out;
+                                    &:hover{
+                                        background-color: var(--main-red);
+                                        cursor: pointer;
+                                    }
+                                }
+                            }
+                        }
+                        .eye-like{
+                            position: absolute;
+                            top: 15px;
+                            right: 15px;
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            gap: 10px;
+                            cursor: pointer;
+                            opacity: 0;
+                            transition: 0.3s ease-in-out;
+                        }
+                        &:hover{
+                            .eye-like{
+                                opacity: 1;
+                            }
+                        }
+                    }
+                }
+                >div:last-child{
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    padding-top: 20px;
+                    p{
+                        font-size: 14px;
+                        line-height: 21px ;
+                        color: var(--light-text-color);
+                    }
+                }
+            }
+        }
+    }
+}
